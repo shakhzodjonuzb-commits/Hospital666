@@ -92,7 +92,7 @@ class GameView(
             try { update(dt) } catch (e: Exception) { }
             val c = try { holder.lockCanvas() } catch (e: Exception) { null }
             if (c != null) {
-                try { draw(c) } catch (e: Exception) { } finally {
+                try { drawFrame(c) } catch (e: Exception) { } finally {
                     try { holder.unlockCanvasAndPost(c) } catch (e: Exception) { }
                 }
             }
@@ -205,7 +205,7 @@ class GameView(
         c.drawText("✕", btnExit.centerX(), btnExit.centerY() + tp.textSize * 0.33f, tp)
     }
 
-    private fun draw(c: Canvas) {
+    private fun drawFrame(c: Canvas) {
         val w = width.toFloat()
         val h = height.toFloat()
         if (game.epoch == 0 || game.offline) {
