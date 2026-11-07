@@ -2,6 +2,10 @@
 
 "Hospital 666" (Lokin, Steam) konseptidan ilhomlangan **original** Android o'yin. Kod va tekstura/ovozlar noldan yozilgan, tashqi kutubxona yo'q.
 
+
+[![Build APK](https://github.com/shakhzodjonuzb-commits/Hospital666/actions/workflows/android.yml/badge.svg)](https://github.com/shakhzodjonuzb-commits/Hospital666/actions/workflows/android.yml)
+
+
 ## Qoidalar
 - Siz cheksiz kasalxona yo'lagidasiz. Yo'lak oxirida **oldingi lift (▲)**, boshlanishda **orqa lift (▼)**.
 - Yo'lakda **g'alati narsa** (anomaliya) bo'lmasa — oldingi liftga, bo'lsa — orqaga qaytib orqa liftga kiring.
